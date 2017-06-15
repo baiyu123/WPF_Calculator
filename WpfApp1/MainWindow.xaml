@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="525" Width="350">
+        Title="MainWindow" Height="525" Width="350"
+        ResizeMode="NoResize"
+        >
     <Grid x:Name="LayoutGrid">
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
